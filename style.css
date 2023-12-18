@@ -1,0 +1,108 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 16px;
+background-image:url("https://raw.githubusercontent.com/frontendmentorio/order-summary-component/fd2da322f6eb2ece0ac49bd55d7eb32958e5c34c/images/pattern-background-desktop.svg");
+background-size: contain;
+background-repeat: no-repeat;
+background-color:hsl(227, 100%, 95%)
+}
+
+
+main {
+  display: flex; 
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  max-width: 450px;
+  padding-bottom: 50px;
+  border-radius: 20px%;
+  margin-top: 20px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 16px;
+  width: 300px;
+  line-height: 1.6;
+  padding: 0;
+  color: gray;
+}
+
+.paragraph p {
+  padding: 2px;
+}
+
+.plan-section {
+  display: flex; 
+  flex-direction: row;
+  background-color:hsl(227, 100%, 95%);
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  border-radius: 20px ;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.annual p.gray {
+  color: gray;
+}
+
+.music-icon {
+  display: flex; 
+  gap: 20px;
+  line-height: 0.5;
+}
+
+.music-icon img {
+  width: 60px;
+  height: 60px;
+
+}
+
+.payment button{
+  background-color:rgb(56, 42, 225) ;
+  width: 360px;
+  padding: 20px;
+  border-radius: 60px;
+  color: white; 
+  font-weight: 700;
+  box-shadow: 0px 11px 31px gray;
+  border-style: none;
+}
+
+.cancel p {
+  border-style: none;
+  padding: 10px;
+  font-weight: 700;
+  color: gray;
+  background-color: none;
+}
+
+a {
+  font-weight: 700;
+}
